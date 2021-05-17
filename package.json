@@ -1,0 +1,23 @@
+{
+  "name": "node_recipe_site",
+  "version": "1.0.0",
+  "description": "> Site utilizing spoonacular API to allow users to find neat meals to make based on what ingredients they have on hand.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xScoopy/node_recipe_site.git"
+  },
+  "author": "Jeremiah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xScoopy/node_recipe_site/issues"
+  },
+  "homepage": "https://github.com/xScoopy/node_recipe_site#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2"
+  }
+}
