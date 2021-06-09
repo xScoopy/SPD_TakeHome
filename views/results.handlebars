@@ -1,6 +1,8 @@
 <div class="container">
     <div class="row">
-        <h3 class="text-center">{{weather.weather.main}}</h3>
+        {{#each weather.weather}}
+        <h3 class="text-center col-12">{{this.main}}</h3>
+        {{/each}}
         <p class="text-left col-8">Current Temp: {{weather.main.temp}}</p>
         <label for="mood" class="col-4">How does the weather make you feel?</label>
         <p class="text-left col-8">Max: {{weather.main.temp_max}}</p>

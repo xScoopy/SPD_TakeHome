@@ -13,6 +13,8 @@ module.exports = (app) => {
                 } else {
                     let weather = JSON.parse(body);
                     console.log(weather)
+                    console.log('--------------')
+                    console.log(weather.weather[0].main)
                     res.render("results", {weather})
                 }
               });
