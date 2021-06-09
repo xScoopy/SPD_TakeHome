@@ -12,6 +12,7 @@ app.use(express.urlencoded({ extended: false }))
 app.engine('handlebars', exphbs({defaultLayout: 'main'}))
 app.set('view engine', 'handlebars')
 
+require('./controllers/index.js')(app);
 
 //Start server
 app.listen(port, () => {
