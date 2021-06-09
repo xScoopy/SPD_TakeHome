@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/xScoopy/node_recipe_site#readme",
   "dependencies": {
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "express-handlebars": "^5.3.2"
+    "express-handlebars": "^5.3.2",
+    "request": "^2.88.2"
   }
 }

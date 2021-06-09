@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+        <h3 class="text-center">{{weather.weather.main}}</h3>
+        <p class="text-left col-8">Current Temp: {{weather.main.temp}}</p>
+        <label for="mood" class="col-4">How does the weather make you feel?</label>
+        <p class="text-left col-8">Max: {{weather.main.temp_max}}</p>
+        <input type="text" class="col-4" placeholder="Current Mood">
+        <p class="text-left col-8">Min: {{weather.main.temp_min}}</p>
+        <button type="submit"class="p2 btn btn-primary">Submit Mood</button>
+        <p class="text-left col-8">Humidity: {{weather.main.humidity}}</p>
+
+    </div>
+</div>
